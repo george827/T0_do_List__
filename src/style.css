@@ -1,0 +1,94 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #d3d3d3;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  border-bottom: 0.01px solid #d3d3d3;
+  margin-left: -6%;
+}
+
+.item-list {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.toDoList {
+  margin: 10%;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px 10px;
+  background-color: #fff;
+}
+
+.refresh {
+  border-bottom: 0.01px solid #d3d3d3;
+}
+
+.add-item {
+  border-bottom: 0.01px solid #d3d3d3;
+}
+
+.add-activity {
+  border: none;
+  font-size: 16px;
+  padding: 15px;
+  width: 94%;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-items: flex-start;
+}
+
+.clear {
+  text-align: center;
+}
+
+.clearBtn {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  font-weight: 400;
+  padding: 15px;
+}
+
+.clearBtn:hover {
+  background-color: #d3d3d3;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.taskinout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.01px solid #d3d3d3;
+  padding: 4px 10px;
+}
+
+.taskinout i {
+  rotate: 90deg;
+}
+
+.item {
+  width: 90%;
+}
+
+.edit-icon {
+  margin-top: 15px;
+}
