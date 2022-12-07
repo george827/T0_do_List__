@@ -22,13 +22,16 @@ const toDoItems = [
   },
 ];
 
+const indexTodo = toDoItems.sort((previous, next) => previous.index - next.index);
+
 const dynamic = () => {
-  toDoItems.forEach((list) => {
+  indexTodo.forEach((list) => {
     todolist.innerHTML += `
         <li class="the-item" id="${list.index}">
             <div class="item-list">
                 <input type="checkbox">
                 <p class="item">${list.description}</p>
+                <i class="fa fa-ellipsis-v icon edit-icon"></i>
             </div>
         </li>
         `;
