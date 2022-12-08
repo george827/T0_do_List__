@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>To do list</title>
 <script defer src="runtime.bundle.js"></script><script defer src="main.bundle.js"></script></head>
 <body>
@@ -10,19 +11,27 @@
         <div class="toDoList">
             <div class="refresh">
                 <p> Today's to do</p>
+                <i class="fa fa-arrows-rotate icon"></i>
             </div>
-            <form action="" class="add-item">
-                <input type="text" placeholder="Add to your list..." class="add-activity" required maxlength="50">
+            <form action="" class="add-item" method="post">
+                <div class="taskinout">
+                    <input type="text" placeholder="Add to your list..." class="add-activity" required maxlength="50">
+                    <button type="submit"> <i class="fa fa-arrow-turn-down icon"></i> </button>
+                </div>
+                
             </form>
             
             <!-- this section is dynamic -->
-            <ul class="to-do-list">
+            <div class="toDoSection">
+                <!-- THIS SECTION FOR THE RO DO LIST -->
+            </div>
 
-            </ul>
             <div class="clear">
-                <button class="clearBtn">Clear all completed</button>
+                <button class="clearBtn" type="button">Clear all completed</button>
             </div>
         </div>
     </main>
 </body>
 </html>
+
+
