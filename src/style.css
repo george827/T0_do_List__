@@ -12,7 +12,7 @@ body {
 }
 
 .toDoList {
-  margin: 10%;
+  margin-top: 10%;
   width: 60%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 10px 10px;
@@ -147,4 +147,9 @@ input:focus {
   width: 90px;
   height: 90px;
   color: black;
+}
+
+main {
+  display: flex;
+  justify-content: center;
 }
